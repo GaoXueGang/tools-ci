@@ -89,12 +89,12 @@ def visitDir(path):
 						copyFile(SRC_PATH+filespath, ANDROID_DIST_PATH+ANDROID_IMAGE_CONFIG[i][3]+ANDROID_IMAGE_CONFIG[i][2])
 						ANDROID_IMAGE_CONFIG[i].append(True)
 	
-	print u"====== iOS缺少尺寸 ======"
+	print u"iOS缺少尺寸: "
 	for i in range(0, len(IOS_IMAGE_CONFIG)):
 		if len(IOS_IMAGE_CONFIG[i]) <= 3:
 			print IOS_IMAGE_CONFIG[i]
 	
-	print u"====== android缺少尺寸 ======"
+	print u"android缺少尺寸: "
 	for i in range(0, len(ANDROID_IMAGE_CONFIG)):
 		if len(ANDROID_IMAGE_CONFIG[i]) <= 4:
 			print ANDROID_IMAGE_CONFIG[i]
