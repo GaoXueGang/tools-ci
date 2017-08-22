@@ -21,4 +21,10 @@
 
 # 使用说明
 
-1. 执行脚本 python copy_icon.py
+1. 美术提供的icon资源放进src目录下(格式png,命名随意)
+
+2. 配置IOS_DIST_PATH和ANDROID_DIST_PATH(iOS和android资源输出目录)
+
+3. 配置IOS_IMAGE_CONFIG和ANDROID_IMAGE_CONFIG(iOS和android尺寸,名称,android的子目录)
+
+4. 执行脚本 python copy_icon.py
